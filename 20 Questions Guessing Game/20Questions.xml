@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<question text="Is it a legendary Pokemon?">
+
+	<answer user_answer="yes">
+	
+		<question text="Is it a psychic type Pokemon?">
+		
+			<answer user_answer="yes">
+			
+				<question text="Was this Pokemon created by Team Rocket?">
+					<answer user_answer="yes">
+						<thing value="Mewtwo"/>
+					</answer>
+					
+					<answer user_answer="no">
+					
+						<question text="Does this Pokemon appear in Omega Ruby and Alpha Saphire's Delta episode?">
+							<answer user_answer="yes">
+								<thing value="Deoxys"/>
+							</answer>
+							
+							<answer user_answer="no">
+							
+								<question text="Is this Pokemon associated with the moon?">
+									<answer user_answer="yes">
+										<thing value="Cresselia"/>
+									</answer>
+									
+									<answer user_answer="no">
+										<thing value="Lugia"/>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+			
+			<answer user_answer="no">
+			
+				<question text="Is it a flying type Pokemon?">
+					<answer user_answer="no">
+						<thing value="Xerneas"/>
+					</answer>
+					
+					<answer user_answer="yes">
+						
+						<question text="Does this Pokemon appear in the first episode of Pokemon Adventure series?">
+							<answer user_answer="yes">
+								<thing value="Ho-oh"/>
+							</answer>
+							
+							<answer user_answer="no">
+								
+								<question text="Is it a fire type Pokemon?">
+									<answer user_answer="yes">
+										<thing value = "Moltres"/>
+									</answer>
+									
+									<answer user_answer="no">
+										<thing value="Articuno"/>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+	
+	<answer user_answer="no">
+		
+		<question text="Is it a starter Pokemon?">
+			<answer user_answer="yes">
+			
+				<question text="Is it a fire type Pokemon?">
+					<answer user_answer="yes">
+						<thing value="Cindaquil"/>
+					</answer>
+					
+					<answer user_answer="no">
+						
+						<question text="Is it a water type Pokemon?">
+							<answer user_answer="yes">
+								<thing value="Totodile"/>
+							</answer>
+							
+							<answer user_answer="no">
+								<thing value="Chikorita"/>
+							</answer>
+							
+						</question>
+					</answer>
+				</question>
+			</answer>
+			
+			<answer user_answer="no">
+				
+				<question text="Is this Pokemon the main Pokemon of the franchise?">
+					<answer user_answer="yes">
+						<thing value="Pikachu"/>
+					</answer>
+					
+					<answer user_answer="no">
+						
+						<question text="Is it an evolve form of Eevee?">
+							<answer user_answer="no">
+								<thing value="Lucario"/>
+							</answer>
+							
+							<answer user_answer="yes">
+								
+								<question text="Is it a generation II pokemon?">
+									<answer user_answer="yes">
+										<thing value="Umbreon"/>
+									</answer>
+									
+									<answer user_answer="no">
+										
+										<question text="Is it an ice type Pokemon?">
+											<answer user_answer="yes">
+												<thing value="Glaceon"/>
+											</answer>
+											
+											<answer user_answer="no">
+												<thing value="Leafeon"/>
+											</answer>
+										</question>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+</question>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
